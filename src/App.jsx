@@ -1,13 +1,12 @@
-import FirstSection from "./Components/FirstSection/FirstSection"
+import Home from './Pages/Home/Home'
 
 
 function App() {
   
   return (
     <>
-      
-      <FirstSection/>
-    </>
+      <Home/>
+      </>
   )
 }
 
