@@ -5,7 +5,7 @@ import "./banner.css";
 
 const Banner = () => {
   let truncate = (text, maxLength) => {
-    // Ensure str is not undefined or null
+    // Ensure str    is not undefined or null
     return text?.length > maxLength ? text.slice(0, maxLength) + "..." : text;
   };
 
